@@ -1,0 +1,443 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    /* position: absolute; */
+    background-image: linear-gradient(rgb(133, 141, 136) 10%, rgb(128, 228, 158));
+    width: 100hv;
+    height: auto;
+    padding: 10px;
+    border: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+    /* border: 1px solid black; */
+    
+}
+
+.container div {
+    /* border: 1px solid black; */
+}
+/* TU TWORZYMY HEADER */
+
+div.header {
+    /* position: relative; */
+    /* background-color: rgb(133, 141, 136); */
+    /* width: 1hv; */
+    height: 300px;
+    padding: 0;
+    margin: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+
+    background-image: url(header2.jpg);
+    background-size: cover;
+    background-position: 100% 100%;
+    /* border: 1px solid black; */
+}
+
+div.hello {
+    /* width: 400px; */
+    height: 100%;
+    padding: 20px 0 20px 20px;
+    /* margin: auto; */
+    box-sizing: border-box;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border-right: 10px solid rgb(20, 20, 20); */
+    border-bottom: 5px solid rgb(20, 20, 20);
+
+    background-color: rgba(250, 250, 250, 60%);
+
+    /* border: 1px solid black; */
+}
+
+h1 {
+    text-align: right;
+    font-size: 40px;
+    padding: 10px;
+    background-image: linear-gradient(-90deg, rgb(128, 228, 158) 30%, transparent);
+
+    /* border: 1px solid black; */
+}
+
+h2 {
+    font-size: 30px;
+    
+    /* border: 1px solid black; */
+    
+}
+
+
+div.nav {
+    /* position: relative; */
+    /* width: 1hv; */
+    height: 100%;
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    /* background-image: url(header2.jpg);
+    background-size: cover;
+    background-position: 100% */
+    
+    /* border: 1px solid black; */
+}
+
+div.nav div {
+    background-image: linear-gradient(30deg, rgb(128, 228, 158) 30%, transparent);
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+       
+    /* border: 1px solid black; */
+}
+
+/* TU TWORZYMY MAIN */
+
+div.main {
+    /* background-color: rgb(128,228,158); */
+    /* width: 1hv; */
+    background-color: rgba(255, 255, 255, 20%);
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-left: 5px solid black;
+    border-top: 5px solid black;
+
+    /* border: 1px solid black; */
+}
+
+.main div {
+    padding: 20px;
+
+    /* border: 1px solid black; */
+}
+
+div.about {
+    grid-area: 1/1/2/3;
+}
+
+div.portfolio {
+    grid-area: 2/1/4/3;
+    /* border-right: 5px solid rgb(20, 20, 20);
+    border-bottom: 5px solid rgb(20, 20, 20); */
+
+    /* border: 1px solid black; */
+}
+
+div.project {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+ }
+
+/* div.project div {
+    width: 200px;
+    height: 200px;
+    margin: 10px 0;
+    box-sizing: border-box;
+} */
+
+/* div.project1 {
+    background-image: url(header.jpg);
+    background-size: cover;
+} */
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+div.project img:hover {
+    /* background-color: white; */
+    opacity: 0.7;
+    border: 5px solid rgb(133, 141, 136);
+    box-sizing: border-box;
+ }
+
+
+div.project2 {
+    background-image: url(header.jpg);
+    background-size: cover;
+}
+
+div.project3 {
+    background-image: url(header.jpg);
+    background-size: cover;
+}
+
+div.project4 {
+    background-image: url(header.jpg);
+    background-size: cover;
+}
+
+div.project5 {
+    background-image: url(header.jpg);
+    background-size: cover;
+}
+
+div.project6 {
+    background-image: url(header.jpg);
+    background-size: cover;
+}
+
+div.project7 {
+    background-image: url(header.jpg);
+    background-size: cover;
+}
+
+div.project8 {
+    background-image: url(header.jpg);
+    background-size: cover;
+}
+
+div.project9 {
+    background-image: url(header.jpg);
+    background-size: cover;
+}
+
+div.skills {
+    grid-area: 1/3/4/4;
+    border-left: 5px solid rgb(20, 20, 20);
+    /* border: 1px solid black; */
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.skills div {
+    width: auto;
+    height: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+h4 {
+border-bottom: 2px solid black;
+
+}
+
+div.agsk {
+    background-image: linear-gradient(90deg, gray 80%, white 80%);
+}
+
+div.acsk {
+    background-image: linear-gradient(90deg, gray 70%, white 70%);
+}
+
+div.supsk {
+    background-image: linear-gradient(90deg, gray 90%, white 90%);
+}
+
+div.htmlsk {
+    background-image: linear-gradient(90deg, gray 65%, white 65%);
+}
+
+div.csssk {
+    background-image: linear-gradient(90deg, gray 60%, white 60%);
+}
+
+div.jssk {
+    background-image: linear-gradient(90deg, gray 20%, white 20%);
+}
+
+div.angsk {
+    background-image: linear-gradient(90deg, gray 70%, white 70%);
+}
+
+div.niemsk {
+    background-image: linear-gradient(90deg, gray 50%, white 50%);
+}
+
+div.hiszsk {
+    background-image: linear-gradient(90deg, gray 20%, white 20%);
+}
+
+h5 {
+    margin: 5px;
+    
+    /* border: 1px solid black; */
+
+}
+/* TU TWORZYMY FOOTER */
+
+div.footer {
+    /* width: 1hv; */
+    height: auto;
+    /* padding: 20px; */
+    margin: 10px;
+    box-sizing: border-box;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 2fr;
+    
+    /* border: 1px solid black; */
+}
+
+div.info {
+    background-color: rgba(255, 255, 255, 50%);
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    /* border: 1px solid black; */
+}
+
+div.contact {
+    background-color: rgba(255, 255, 255, 50%);
+    border-left: 5px solid rgb(20, 20, 20);
+    border-top: 5px solid rgb(20, 20, 20);
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  
+    /* border: 1px solid black; */
+}
+
+div form {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+
+    /* border: 1px solid black; */
+}
+
+div.dane {
+    /* display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start; */
+    
+    padding: 5px;
+    box-sizing: border-box;
+
+    /* border: 1px solid black; */
+}
+
+div.message {
+    padding: 5px;
+
+    /* border: 1px solid black; */
+}
+
+/* INNE */
+
+h3 {
+    font-weight: bold 400;
+    padding: 5px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: rgb(128, 228, 158);
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    max-height: 30px;
+    /* border: 1px solid black; */
+}
+
+
+a:link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div.nav a:hover {
+    color: black;
+    text-decoration: none;
+    background-color: rgb(128, 228, 158);
+    border-radius: 100%;
+    font-weight: bold;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+div.icons {
+    display: flex;
+    justify-content: flex-end;
+  
+    /* border: 1px solid black; */
+}
+
+div.icons i {
+    font-size: 30px;
+    margin: 10px;
+    color: rgb(40,40,40);
+
+}
+
+div.info p {
+    line-height: 1.5;
+    margin: 0;
+    /* border: 1px solid black; */
+}
+
+div.nav i {
+    font-size: 40px;
+    /* margin: 10px; */
+    color: rgb(40, 40, 40);
+
+}
+
+div.main i {
+    font-size: 20px;
+    padding-right: 10px;
+    color: rgb(40, 40, 40);
+}
+
+#contact h3 {
+    background-color: transparent;
+}
+
+div.info p:last-child {
+    font-size: 10px;
+    text-align: right;
+}
+
+div.icons a:hover {
+    color: black;
+    /* background-color: white; */
+    transform: scale(1.2);
+}
