@@ -3,22 +3,25 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Strona autorska - Joanna Gruszecka</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="projekt1.css">
     <script src="main.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
 </head>
 <body>
     <div class='container'>
-        <div class='header'>
+        <div class='hero'>
             <div class='hello'>
-                <h2>Poznajmy sie!</h2>
+                <div class='quote'>
+                    <br>
+                    <q>Poświęcaj tyle czasu na ulepszanie siebie, byś nie miał go na krytykę innych.</q>
+                    <p>- Christian D. Larson</p>
+                </div>
+                <h2>Poznajmy się!</h2>
                 <h1>Joanna Gruszecka</h1>
             </div>
-            <!-- <div class='foto'>
-                <div class='zdj'></div>
-            </div> -->
             <div class='nav' id='nav'>
                 <a href='#about' title='o mnie'><div><i class="fas fa-user"></i></div></a>
                 <a href='#skills' title='umiejętności'><div><i class="fas fa-chart-line"></i></div></a>
@@ -29,33 +32,38 @@
         <div class='main'>
             <div class='about' id='about'>
                 <h3>o mnie<a href='#nav' title='powrót do menu'><i class="fas fa-angle-double-up"></i></a></h3>
-                    <div class='opis'>
-                        <div class='cv'>
-                        imię: <span style='color: green; font-weight: bold;'>Joanna</span><br>
-                        nazwisko: <span style='color:green; font-weight: bold;'>Gruszecka</span><br>
-                        wiek: <span style='color:green; font-weight: bold;'>26 lat</span><br>
-                        miasto: <span style='color: green; font-weight: bold;'>Wrocław</span><br>
-                        zawód: <span style='color: green; font-weight: bold;'>urbanista</span><br>
-                        zainteresowania: <span style='color: green; font-weight: bold;'>tworzenie stron internetowych</span><br>
-                        hobby: <span style='color: green; font-weight: bold;'>gry planszowe</span><br>
-                        </div>
-                         <div class='foto'></div>
-                         <div class='description'>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        </div>
+                <div class='aboutme'>
+                    <div class='name'>
+                        imię: <span>Joanna</span><br>
+                        nazwisko: <span>Gruszecka</span><br>
+                        wiek: <span>26 lat</span><br>
+                        miasto: <span>Wrocław</span><br>
+                        zawód: <span>urbanista</span><br>
+                        zainteresowania: <span>tworzenie stron internetowych</span><br>
+                        hobby: <span>gry planszowe</span><br>
                     </div>
+                    <div class='foto'></div>
+                    <div class='description'>
+                        <p><b>Cześć!</b>
+                            Mam na imię Asia. Obecnie pracuję w biurze urbanistycznym tworząć dokumenty planistyczne dla gmin. Jednak swoją
+                            przyszłość i zainteresowania nie chciałabym ograniczać jedynie do obecnego zawodu. Chęć nauki tworzenia stron internetowych
+                            towarzyszy mi od wielu lat, ale dopiero w ostatnim czasie miałam okazję rozwinąć tą pasję. Przyczynił się temu
+                            także CodersCamp.
+                            W wolnym czasie, nierzadko, spędzam czas ze znajomymi lub rodziną grając w gry planszowe. </p>
+                    </div>
+                </div>
             </div>
             <div class='skills' id='skills'>     
-            <h3>umiejętności <a href='#nav' title='powrót do menu'><i class="fas fa-angle-double-up"></i></a></h3>
+                <h3>umiejętności <a href='#nav' title='powrót do menu'><i class="fas fa-angle-double-up"></i></a></h3>
                 <div class='charts'>
                     <div class='urban'>
-                    <h4>urbanistyka</h4>
-                        <h5>ARC-GIS</h5>
-                            <div class='agsk'></div>
-                        <h5>AUTOCAD</h5>
-                            <div class='acsk'></div>
-                        <h5>SKETCHUP</h5>
-                            <div class='supsk'></div>
+                        <h4>urbanistyka</h4>
+                            <h5>ARC-GIS</h5>
+                                <div class='agsk'></div>
+                            <h5>AUTOCAD</h5>
+                                <div class='acsk'></div>
+                            <h5>SKETCHUP</h5>
+                                <div class='supsk'></div>
                     </div>
                     <div class='frontend'>
                         <h4>frond-end</h4>
@@ -79,29 +87,13 @@
             </div>
             <div class='portfolio' id='portfolio'>
                 <h3>portfolio<a href='#nav' title='powrót do menu'><i class="fas fa-angle-double-up"></i></a></h3>
-                <div class='project'>
-                        <a href='#' title='project1'><img src='proj1.jpg'></a>
-                        
-                        <a href='#' title='project2'><img src='proj2.jpg'></a>
-
-                        <a href='#' title='project3'><img src='proj3.jpg'></a>
-      
-                        <a href='#' title='project4'><img src='proj4.jpg'></a>
-
-                        <a href='#' title='project5'><img src='proj5.jpg'></a>
-
-                        <a href='#' title='project6'><img src='proj6.jpg'></a>
- 
-
-                    <!-- <div class='project1'></div>
-                    <div class='project2'></div>
-                    <div class='project3'></div>
-                    <div class='project4'></div>
-                    <div class='project5'></div>
-                    <div class='project6'></div> -->
-                    <!-- <div class='project7'></div>
-                    <div class='project8'></div>
-                    <div class='project9'></div> -->
+                <div class='projects'>
+                    <a href='#' title='Center of Buisnes Area'><img src='proj1.jpg'></a>
+                    <a href='#' title='Buisnes Area'><img src='proj2.jpg'></a>
+                    <a href='#' title='Centrum Społeczne'><img src='proj3.jpg'></a>
+                    <a href='#' title='Marina'><img src='proj4.jpg'></a>
+                    <a href='#' title='Zagospodarowanie kwartału'><img src='proj5.jpg'></a>
+                    <a href='#' title='Zagospodarowanie kwartału'><img src='proj6.jpg'></a>
                 </div>
             </div>
         </div>
